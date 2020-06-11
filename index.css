@@ -127,8 +127,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* ***************** RESET COMPLETE ********************* */
-
+/* *********************************** RESET COMPLETE ****************************** */
+h1 {
+  width: 50%;
+  margin: auto;
+}
+p {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+.button {
+  color: white;
+  border: 1px solid white;
+  margin: 3%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
 #header-img {
   background-image: url("./assets/header_img.jpg");
   background-position: center;
